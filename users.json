@@ -1,0 +1,63 @@
+{
+"birthday": "01.11.1977", 
+"language": "ru", 
+"gender" : "f", 
+"avatar": "http://link.to/image",
+"initials": {
+
+"international": {
+"name" : "Natalia",
+"secondName": "Arizherovna",
+"surname" : "Gamidova"
+},
+
+"original": {
+"name": "Наталья",
+"secondName": "Арижеровна",
+"surname": "Гамидова"
+}
+},
+"documents": {
+
+"ps": [{
+"number": "XXXX XXXXXX"
+}],
+"psp": [{
+"number": "XX-XX-XXXXXXXXX",
+"expireDate": 100500,
+"country": "RUS"
+}]
+},
+"email": "example@example.com",
+"phone": "+70000000000",
+"address": {
+"country" : "Россия",
+"city" : "Краснодар",
+"state" : "Краснодарский Край",
+"address" : "ул. Пушкина, д.1, кв. 1",
+"zipCode" : 350012
+},
+"status": {
+"id": 842987349234,
+"2cardNo" : 9999999999, 
+"accNo": 10000000, 
+"level": "BASIC"
+},
+"channels": {
+"email": {
+"allowed": false,
+"verified": true
+},
+"sms": {
+"allowed": false,
+"verified": true
+},
+"post": {
+"allowed": false,
+"verified": false
+},
+"phone": {
+"allowed": true,
+"verified": true
+}
+}}

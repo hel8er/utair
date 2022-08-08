@@ -36,6 +36,14 @@ $or: [{
 SELECT * FROM Transactions tr LEFT JOIN TransactionBalances trb ON tr.id = trb.transactionId WHERE tr.accountId=12345 AND trb.amount > 0 ORDER BY tr.createdAt
 ```
 
+### 8.Excel
+
+#### 8.1 Таблица с запросами
+https://github.com/hel8er/utair/raw/master/requests.xlsx
+
+#### 8.2 RegExp
+https://github.com/hel8er/utair/raw/master/regexp.xlsm
+
 ### 9.Python
 #### Написать конвертор мер длины
 

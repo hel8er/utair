@@ -13,6 +13,17 @@
 <ns1:confirmed_price>0</ns1:confirmed_price>
 ```
 
+### 2.Разбор поступающих запросов
+
+
+### 3.Анализ проблемы
+
+#### 3.1 Проблема с отображением в личном кабинете 
+pass
+
+#### 3.2 Нельзя авторизоваться по аккаунту соцсети «В Контакте»
+pass
+
 ### 4.Работа с базой данных
 #### 4.1 MongoDB
 
@@ -35,6 +46,14 @@ $or: [{
 ```
 SELECT * FROM Transactions tr LEFT JOIN TransactionBalances trb ON tr.id = trb.transactionId WHERE tr.accountId=12345 AND trb.amount > 0 ORDER BY tr.createdAt
 ```
+
+### 5.Участие в проработке нового продукта
+
+### 6.Документировение
+
+### 7.График
+
+Первое, что бросается в глаза, пики нагрузки происходят в утреннее время
 
 ### 8.Excel
 
